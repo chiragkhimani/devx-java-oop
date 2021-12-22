@@ -1,0 +1,50 @@
+Inheritance - Child class can access members of parent class
+Advantange of Inheritance - Code optimization  / Reusability / Maintainbility
+
+How can we achieve inheritance in java - Using extends keyword
+
+Types of Variable
+
+************** Local Variables **************
+---> Variable created inside any blocks (for loop, methods, if condition), or not declared at class level
+are the local variables
+---> Local variable can be accessible only inside the blocks where it is created
+---> Local variable can not be static & can not be private, public
+---> Local variable must be initialized before use
+---> Local variable can be final
+
+************** Instance Variables **************
+---> Variable created at class level without static keyword are the instance variables
+---> It belongs to the objects
+---> Instance variable initialized by default (default value for int - 0 & String - null)
+---> Instance variable can be private, public
+---> Instance variable can be final
+---> Instance variable will have multiple copies with respect to number of object we're creating from class
+
+************** Static (Changeable) Variables **************
+---> Variable created at class level with static keyword are the Static variables
+---> It belongs to the class
+---> Static variable initialized by default (default value for int - 0 & String - null)
+---> Static variable can be private, public
+---> Static variable will have single copy at class level regardless of number of object we're creating from class
+---> Static variable can be final
+
+************** This Keyword **************
+---> It's reference variable refers to object of current class
+---> This keyword can be used to access current class variables & methods
+---> this keyword also used to call current class constructor from another current class constructor
+Rules of calling current class constructor from another constructor :
+1. this() --> will call no argument constructor & IT SHOULD BE THE FIRST STATEMENT ONLY
+2. this("data") --> will call parameterized constructor with String parameter
+
+************** Super Keyword **************
+---> It's reference variable refers to object of parent class
+
+************** ConstructorChaining **************
+---> When we create object of child class it'll call parent class constructor first & then it'll call
+child class constructor. This is called Constructor Chaining
+---> For Example we have parent class A---> B (child of A) ---> C (child of B)
+  ===> When we create object of class C then it'll call constructor of A first & then constructor of B
+       ,and then it'll call constructor of C
+
+
