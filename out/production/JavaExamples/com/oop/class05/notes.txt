@@ -34,7 +34,7 @@ are the local variables
 ---> This keyword can be used to access current class variables & methods
 ---> this keyword also used to call current class constructor from another current class constructor
 Rules of calling current class constructor from another constructor :
-1. this() --> will call no argument constructor & IT SHOULD BE THE FIRST STATEMENT ONLY
+1. this(), super() --> will call no argument constructor & IT SHOULD BE THE FIRST STATEMENT ONLY
 2. this("data") --> will call parameterized constructor with String parameter
 
 ************** Super Keyword **************

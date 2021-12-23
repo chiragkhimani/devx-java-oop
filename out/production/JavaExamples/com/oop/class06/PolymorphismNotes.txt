@@ -1,0 +1,19 @@
+METHOD OVERLOADING - It's design that java will allow to have more than one method in the same class with same name
+But you need to follow one of the two condition:
+    1) Either Number of Parameters Can be Different
+    2) Or Type of Parameter can be different
+
+    Example - String methods like indexOf() or replace or subString()
+
+METHOD OVERRIDING - When we have two classes with parent child relationship, child class can have same method name
+with same parameter that we have in parent but child class can change implementation. So child class overriding parent
+class method
+
+Another Definition - it's a design that java will allow to have same method & same parameters (same method exactly!)
+But one method will be in parent & another one in child class & Child class can change implementation of method
+
+
+
+
+
+
