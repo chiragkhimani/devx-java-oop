@@ -7,7 +7,7 @@ public class DynamicPolymorphism {
         Phone p = new Phone();
         p.call();   // calling
         p.text();   // texting
-        p.surfInternet();
+      //  p.surfInternet();
 
         // Case 2
         SmartPhone  s = new SmartPhone();
@@ -19,10 +19,10 @@ public class DynamicPolymorphism {
         Phone ps = new SmartPhone();
         ps.call(); // Wifi calling
         ps.text(); // texting
-        ps.surfInternet();
+      //  ps.surfInternet();
 
         // Case 4
-        SmartPhone sp = new Phone();
+       // SmartPhone sp = new Phone();
     }
 
 }

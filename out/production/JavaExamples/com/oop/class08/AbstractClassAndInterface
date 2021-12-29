@@ -1,0 +1,14 @@
+Abstract class :
+
+1. Abstract class can have abstract as well as non abstract methods (0 to 100% abstraction)
+2. Abstract class should be declared with abstract keyword
+3. We cannot create object of abstract class
+4. If we have at least one method inside the class is abstract we need to make class abstract
+5. Abstract class can have constructor / instance variable & constructor will get executed when we create
+   object of child class
+6. Abstract class can have static method
+
+
+Interface
+
+1.

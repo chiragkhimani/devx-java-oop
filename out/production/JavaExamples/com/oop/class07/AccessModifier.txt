@@ -1,0 +1,9 @@
+Access modifier - It'll specify the access level of class members
+
+1. public   - anywhere
+2. private  - within the class
+3. protected - within the package + outside package (subclass only)
+4. default  - within the package
+
+
+Encapsulation - Wrapping up data & methods into single class

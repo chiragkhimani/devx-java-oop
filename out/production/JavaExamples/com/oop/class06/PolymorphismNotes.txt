@@ -12,8 +12,10 @@ class method
 Another Definition - it's a design that java will allow to have same method & same parameters (same method exactly!)
 But one method will be in parent & another one in child class & Child class can change implementation of method
 
+    Example - Pending, we'll get more example once we cover abstraction & from selenium as well
 
 
-
+Dynamic polymorphism - When we use reference of parent class & object of child class, we're using dynamic
+polymorphism
 
 
