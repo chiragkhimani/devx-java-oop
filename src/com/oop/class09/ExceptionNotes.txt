@@ -1,0 +1,7 @@
+Exception
+           1. Unwanted event occurred during program execution
+           2. This can be fixed by programmer
+
+Error -
+           1. Memory failure, JVM crash
+           2. Programmer will not handle the error
