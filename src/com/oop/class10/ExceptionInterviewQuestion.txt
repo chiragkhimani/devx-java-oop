@@ -1,0 +1,26 @@
+How can we handle exception in java?
+-try catch
+
+
+Can we write try block with catch block?
+ - We can't write only try but if we have finally we can ignore catch block
+
+
+How many catch we can write for 1 try?
+multiple / unlimited
+
+
+Which is the base class of all exception classes?
+Exception (class) ---> Throwable (interface)
+
+which one is base class of all classes in java?
+Object
+
+
+Why are we not importing Object class?
+By default java.lang package is imported in program
+
+
+Why we need finally block in java?
+finally:this keyword is used with the try-catch block to provide statements that will always get executed whether exception is handled or not
+Usually,finally is used to close resources
